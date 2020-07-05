@@ -24,6 +24,7 @@ func indexHandler(c web.C, w http.ResponseWriter, r *http.Request) {
 		"maxsize":     Config.maxSize,
 		"expirylist":  listExpirationTimes(),
 		"forcerandom": Config.forceRandomFilename,
+		"defaultExpiry": defaultExpiry,
 	}, r, w)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)

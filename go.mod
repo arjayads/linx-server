@@ -8,6 +8,7 @@ require (
 	github.com/dchest/uniuri v0.0.0-20200228104902-7aecb25e1fe5
 	github.com/dustin/go-humanize v1.0.0
 	github.com/flosch/pongo2 v0.0.0-20190707114632-bbf5a6c351f4
+	github.com/gorilla/mux v1.7.4 // indirect
 	github.com/microcosm-cc/bluemonday v1.0.2
 	github.com/minio/sha256-simd v0.1.1
 	github.com/russross/blackfriday v1.5.1

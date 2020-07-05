@@ -32,8 +32,10 @@ linx-server
 linx-cleanup/linx-cleanup
 linx-genkey/linx-genkey
 linx-server.conf
-files/
-meta/
+/files/
+/meta/
 binaries/
 custom_pages/
 authfile
+
+/.idea/
